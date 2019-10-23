@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/heycalaway/react-adopt-pet-app-v2#readme",
   "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-react": "^7.6.3",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.5.1",
     "eslint-config-prettier": "^6.4.0",
@@ -32,5 +35,16 @@
     "@frontendmasters/pet": "^1.0.3",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
-  }
+  },
+  "browserslist": [
+    "last 1 Chrome versions",
+    "last 1 ChromeAndroid versions",
+    "last 1 Firefox versions",
+    "last 1 FirefoxAndroid versions",
+    "last 1 Safari versions",
+    "last 1 iOS versions",
+    "last 1 Edge versions",
+    "last 1 Opera versions",
+    "last 1 OperaMobile versions"
+  ]
 }
